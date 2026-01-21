@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora de Obra</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="topbar" id="topbar">
+      <button class="btn" id="btnBack" aria-label="Volver">←</button>
+      <div class="topbarTitle" id="topbarTitle">Calculadora de Obra</div>
+      <div class="topbarRight"></div>
+    </header>
+
+    <main class="screens">
+      <section class="screen active" id="home" data-title="Calculadora de Obra">
+        <h1 class="title">Calculadora de Obra</h1>
+
+        <div class="menu">
+          <button class="card" data-go="materiales">Cantidad de materiales</button>
+          <button class="card" data-go="manoobra">Presupuesto de mano de obra</button>
+          <button class="card" data-go="precios-materiales">Precio de materiales</button>
+          <button class="card" data-go="mis-precios">Mis precios</button>
+        </div>
+      </section>
+
+      <section class="screen" id="materiales" data-title="Cantidad de materiales">
+        <h2 class="h2">Cantidad de materiales</h2>
+        <p class="muted">Pendiente.</p>
+      </section>
+
+      <section class="screen" id="manoobra" data-title="Presupuesto de mano de obra">
+        <h2 class="h2">Presupuesto de mano de obra</h2>
+        <p class="muted">Pendiente.</p>
+      </section>
+
+      <section class="screen" id="precios-materiales" data-title="Precio de materiales">
+        <h2 class="h2">Precio de materiales</h2>
+        <p class="muted">Pendiente.</p>
+      </section>
+
+      <section class="screen" id="mis-precios" data-title="Mis precios">
+        <h2 class="h2">Mis precios</h2>
+        <p class="muted">Pendiente.</p>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
